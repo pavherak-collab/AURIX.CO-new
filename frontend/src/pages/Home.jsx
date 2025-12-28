@@ -58,8 +58,8 @@ export default function Home() {
       {/* Store Interior Section */}
       <section id="store-interior" className="store-section">
         <div className="section-content">
-          <h2 className="section-title">Our Collection</h2>
-          <p className="section-subtitle">Educational Programs Designed for Real Growth</p>
+          <h2 className="section-title">Curated Programs</h2>
+          <p className="section-subtitle">Education Designed for Real Growth</p>
 
           <div className="products-grid">
             {/* Product 1 */}
