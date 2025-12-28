@@ -22,20 +22,6 @@ export default function Home() {
       {/* Entrance Section */}
       <section className={`entrance-section ${isEntering ? 'entering' : ''}`}>
         <div className="entrance-overlay"></div>
-        
-        {/* Luxury Cars */}
-        <div className="car-left">
-          <img 
-            src="https://images.pexels.com/photos/3764984/pexels-photo-3764984.jpeg" 
-            alt="Luxury Car Left" 
-          />
-        </div>
-        <div className="car-right">
-          <img 
-            src="https://images.pexels.com/photos/6453067/pexels-photo-6453067.jpeg" 
-            alt="Luxury Car Right" 
-          />
-        </div>
 
         {/* Center Content */}
         <div className="entrance-content">
