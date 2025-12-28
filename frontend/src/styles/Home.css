@@ -420,20 +420,6 @@ body {
     letter-spacing: 2px;
   }
   
-  .car-left,
-  .car-right {
-    width: 200px;
-    height: 150px;
-  }
-  
-  .car-left {
-    left: 2%;
-  }
-  
-  .car-right {
-    right: 2%;
-  }
-  
   .store-section,
   .about-section {
     padding: 60px 20px;
