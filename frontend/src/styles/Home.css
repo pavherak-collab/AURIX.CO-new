@@ -151,7 +151,7 @@ body {
   align-items: center;
   gap: 12px;
   text-transform: uppercase;
-  box-shadow: 0 0 30px rgba(0, 255, 209, 0.4);
+  box-shadow: 0 0 30px rgba(201, 169, 97, 0.4);
 }
 
 .btn-enter:hover {
