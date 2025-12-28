@@ -15,10 +15,10 @@
   --border-subtle: rgba(255, 255, 255, 0.25);
   --border-medium: rgba(255, 255, 255, 0.4);
   
-  /* Brand Colors */
-  --brand-primary: #00FFD1;
-  --brand-hover: rgba(0, 255, 209, 0.1);
-  --brand-active: #6FD2C0;
+  /* Brand Colors - Luxury Bronze/Gold */
+  --brand-primary: #C9A961;
+  --brand-hover: rgba(201, 169, 97, 0.1);
+  --brand-active: #B8935A;
 }
 
 * {
