@@ -407,12 +407,6 @@ body {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  
-  .car-left,
-  .car-right {
-    width: 300px;
-    height: 220px;
-  }
 }
 
 @media (max-width: 768px) {
