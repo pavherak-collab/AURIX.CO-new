@@ -248,7 +248,7 @@ body {
 .product-card:hover {
   border-color: var(--brand-primary);
   transform: translateY(-8px);
-  box-shadow: 0 20px 60px rgba(0, 255, 209, 0.2);
+  box-shadow: 0 20px 60px rgba(201, 169, 97, 0.2);
 }
 
 .product-card.premium {
