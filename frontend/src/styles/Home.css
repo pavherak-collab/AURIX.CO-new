@@ -342,7 +342,7 @@ body {
 
 .btn-product.premium-btn:hover {
   background: var(--brand-active);
-  box-shadow: 0 8px 24px rgba(0, 255, 209, 0.4);
+  box-shadow: 0 8px 24px rgba(201, 169, 97, 0.4);
 }
 
 /* About Section */
