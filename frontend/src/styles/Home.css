@@ -65,49 +65,8 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2));
   z-index: 1;
-}
-
-/* Luxury Cars */
-.car-left,
-.car-right {
-  position: absolute;
-  bottom: 10%;
-  width: 400px;
-  height: 300px;
-  z-index: 2;
-  opacity: 0.9;
-  transition: transform 0.4s ease-in-out;
-}
-
-.car-left {
-  left: 5%;
-  transform: translateX(-20px);
-}
-
-.car-right {
-  right: 5%;
-  transform: translateX(20px);
-}
-
-.car-left:hover {
-  transform: translateX(0);
-  opacity: 1;
-}
-
-.car-right:hover {
-  transform: translateX(0);
-  opacity: 1;
-}
-
-.car-left img,
-.car-right img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: brightness(0.9) contrast(1.1);
-  border-radius: 0px;
 }
 
 /* Entrance Content */
