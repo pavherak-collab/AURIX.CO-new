@@ -158,7 +158,7 @@ export default function Home() {
             <a href="#contact">Contact</a>
           </div>
           <p className="footer-copyright">
-            © 2025 AURIX.CO. All rights reserved.
+            © 2026 AURIX.CO. All rights reserved.
           </p>
         </div>
       </footer>
