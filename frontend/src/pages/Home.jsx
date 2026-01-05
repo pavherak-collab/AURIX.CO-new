@@ -63,10 +63,19 @@ export default function Home() {
                 <li>Beginner-friendly approach</li>
                 <li>Step-by-step guidance</li>
               </ul>
-              <button className="btn-product">
-                Learn More
-                <ArrowRight size={18} />
-              </button>
+            <button
+  className="btn-product"
+  onClick={() => window.open(
+    "https://www.checkout-ds24.com/redir/569009/ViralProductsbyPavel/",
+    "_blank"
+  )}
+>
+  Learn More
+  <ArrowRight size={18} />
+</button>
+            
+              
+              
             </div>
 
             {/* Product 2 */}
@@ -83,10 +92,21 @@ export default function Home() {
                 <li>Platform-specific insights</li>
                 <li>Data-driven approach</li>
               </ul>
-              <button className="btn-product premium-btn">
-                Enter Program
-                <ArrowRight size={18} />
-              </button>
+              <button
+  className="btn-product premium-btn"
+  onClick={() =>
+    window.open(
+      "https://www.digistore24.com/redir/626995/ViralProductsbyPavel/",
+      "_blank"
+    )
+  }
+>
+  Enter Program
+  <ArrowRight size={18} />
+</button>
+              
+                
+            
             </div>
           </div>
         </div>
