@@ -53,10 +53,10 @@ export default function Home() {
               <div className="product-badge">Personal Finance · Productivity</div>
               <h3 className="product-title">Smart Personal Budget Planner</h3>
               <p className="product-description">
-                A practical budgeting tool designed to help individuals organize, track, and 
-                better understand their personal finances. This dynamic Google Sheets-based 
-                planner allows users to allocate income across categories, monitor monthly and 
-                yearly performance, and visualize financial trends through an interactive dashboard.
+                A practical budgeting tool for organizing, tracking, and understanding personal 
+                finances with clarity and structure. This dynamic Google Sheets-based planner 
+                allows users to allocate income across categories, monitor monthly and yearly 
+                performance, and visualize financial trends through an interactive dashboard.
               </p>
               <ul className="product-features">
                 <li>Structured income and expense allocation</li>
