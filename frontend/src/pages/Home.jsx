@@ -50,32 +50,25 @@ export default function Home() {
           <div className="products-grid">
             {/* Product 1 */}
             <div className="product-card">
-              <div className="product-badge">Entry Level</div>
-              <h3 className="product-title">The Lost Generator</h3>
+              <div className="product-badge">Personal Finance · Productivity</div>
+              <h3 className="product-title">Smart Personal Budget Planner</h3>
               <p className="product-description">
-                A foundational program focused on lead generation strategies and building 
-                system-based income foundations. Learn proven methods to create sustainable 
-                digital assets.
+                A practical budgeting tool designed to help individuals organize, track, and 
+                better understand their personal finances. This dynamic Google Sheets-based 
+                planner allows users to allocate income across categories, monitor monthly and 
+                yearly performance, and visualize financial trends through an interactive dashboard.
               </p>
               <ul className="product-features">
-                <li>Lead generation fundamentals</li>
-                <li>System-based frameworks</li>
-                <li>Beginner-friendly approach</li>
-                <li>Step-by-step guidance</li>
+                <li>Structured income and expense allocation</li>
+                <li>Automated monthly and yearly summaries</li>
+                <li>Interactive financial dashboard</li>
+                <li>Historical tracking across multiple periods</li>
+                <li>Customizable Google Sheets system</li>
               </ul>
-            <button
-  className="btn-product"
-  onClick={() => window.open(
-    "https://www.checkout-ds24.com/redir/569009/ViralProductsbyPavel/",
-    "_blank"
-  )}
->
-  Learn More
-  <ArrowRight size={18} />
-</button>
-            
-              
-              
+              <button className="btn-product">
+                Get the Planner
+                <ArrowRight size={18} />
+              </button>
             </div>
 
             {/* Product 2 */}
