@@ -105,6 +105,19 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Affiliate Disclosure Section */}
+      <section className="affiliate-disclosure-section">
+        <div className="section-content">
+          <div className="disclosure-content">
+            <p className="disclosure-text">
+              <strong>Affiliate Disclosure:</strong><br />
+              Some links on this website are affiliate links. This means we may earn a commission 
+              if you choose to purchase through them, at no additional cost to you.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* About Section */}
       <section className="about-section">
         <div className="section-content">
