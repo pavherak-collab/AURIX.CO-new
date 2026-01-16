@@ -60,15 +60,24 @@ export default function Home() {
               </p>
               <ul className="product-features">
                 <li>Structured income and expense allocation</li>
-                <li>Automated monthly and yearly summaries</li>
+                <a
+  href="https://www.checkout-ds24.com/redir/604596/ViralProductsbyPavel/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="btn-product">
+    Get the Planner
+    <ArrowRight size={18} />
+  </button>
+</a><li>Automated monthly and yearly summaries</li>
                 <li>Interactive financial dashboard</li>
                 <li>Historical tracking across multiple periods</li>
                 <li>Customizable Google Sheets system</li>
               </ul>
-              <button className="btn-product">
-                Get the Planner
-                <ArrowRight size={18} />
-              </button>
+              
+              
+            
+            
             </div>
 
             {/* Product 2 */}
