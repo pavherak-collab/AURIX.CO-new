@@ -58,6 +58,13 @@ export default function Home() {
                 allows users to allocate income across categories, monitor monthly and yearly 
                 performance, and visualize financial trends through an interactive dashboard.
               </p>
+              <ul className="product-features">
+                <li>Structured income and expense allocation</li>
+                <li>Automated monthly and yearly summaries</li>
+                <li>Interactive financial dashboard</li>
+                <li>Historical tracking across multiple periods</li>
+                <li>Customizable Google Sheets system</li>
+              </ul>
               <a
                 href="https://www.checkout-ds24.com/redir/604596/ViralProductsbyPavel/"
                 target="_blank"
