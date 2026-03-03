@@ -107,6 +107,28 @@ export default function Home() {
                 
             
             </div>
+
+            {/* Product 3 */}
+            <div className="product-card premium">
+              <div className="product-badge premium-badge">Aurix Flagship Product</div>
+              <h3 className="product-title">The Digital Foundation</h3>
+              <p className="product-description">
+                A strategic digital guide designed to help beginners build their first structured 
+                online income system. Learn the fundamentals of digital positioning, product 
+                creation, and monetization with clarity and direction.
+              </p>
+              <ul className="product-features">
+                <li>Digital income fundamentals</li>
+                <li>Positioning & niche clarity</li>
+                <li>Simple monetization framework</li>
+                <li>Beginner-friendly structure</li>
+                <li>Action-based implementation guide</li>
+              </ul>
+              <button className="btn-product premium-btn">
+                Get Access
+                <ArrowRight size={18} />
+              </button>
+            </div>
           </div>
         </div>
       </section>
