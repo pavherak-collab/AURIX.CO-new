@@ -64,10 +64,15 @@ export default function Home() {
                 <li>Beginner-friendly structure</li>
                 <li>Action-based implementation guide</li>
               </ul>
-              <button className="btn-product premium-btn">
-                Get Access
-                <ArrowRight size={18} />
-              </button>
+              <div className="pricing-block">
+                <p className="original-price">19,99 €</p>
+                <p className="launch-price">14,99 € – Launch Price</p>
+                <p className="purchase-instruction">
+                  To purchase, send an email to:<br />
+                  <strong>contactaurix.co@proton.me</strong><br />
+                  Subject: Digital Foundation – Purchase
+                </p>
+              </div>
             </div>
 
             {/* Product 2 */}
