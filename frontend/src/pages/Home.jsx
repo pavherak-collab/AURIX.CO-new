@@ -74,7 +74,23 @@ export default function Home() {
                 </p>
               </div>
             </div>
+<div style={{ marginTop: "40px", padding: "20px", border: "1px solid #444", textAlign: "center" }}>
+  <h2>🎁 EXCLUSIVE BONUS</h2>
+  
+  <p><strong>This guide is NOT sold separately.</strong></p>
+  
+  <p>
+    You will receive it <strong>FREE</strong> only when you purchase any product above.
+  </p>
 
+  <p>
+    Step 1: Purchase any product above <br />
+    Step 2: Send your receipt to: contactaurix.co@proton.me <br />
+    Step 3: Receive your bonus instantly
+  </p>
+
+  <p><strong>⚠️ Only available for customers</strong></p>
+</div>
             {/* Product 2 */}
             <div className="product-card">
               <div className="product-badge">Personal Finance · Productivity</div>
