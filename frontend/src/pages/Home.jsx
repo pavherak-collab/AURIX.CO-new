@@ -64,35 +64,21 @@ export default function Home() {
                 <li>Beginner-friendly structure</li>
                 <li>Action-based implementation guide</li>
               </ul>
-              <div className="pricing-block">
-            <p className="launch-price">🎁 FREE BONUS</p>
-<p style={{ fontSize: "14px", opacity: 0.8 }}>
-  Available only when you purchase any product above
+             <h3>🎁 FREE BONUS</h3>
+
+<p><strong>This guide is NOT sold separately.</strong></p>
+
+<p>
+You will receive it <strong>FREE</strong> only when you purchase any product above.
 </p>
-                <p className="purchase-instruction">
-                  To purchase, send an email to:<br />
-                  <strong>contactaurix.co@proton.me</strong><br />
-                  Subject: Digital Foundation – Purchase
-                </p>
-              </div>
-            </div>
-<div style={{ marginTop: "40px", padding: "20px", border: "1px solid #444", textAlign: "center" }}>
-  <h2>🎁 EXCLUSIVE BONUS</h2>
-  
-  <p><strong>This guide is NOT sold separately.</strong></p>
-  
-  <p>
-    You will receive it <strong>FREE</strong> only when you purchase any product above.
-  </p>
 
-  <p>
-    Step 1: Purchase any product above <br />
-    Step 2: Send your receipt to: contactaurix.co@proton.me <br />
-    Step 3: Receive your bonus instantly
-  </p>
+<p>
+1. Purchase any product above<br />
+2. Send your receipt to: <strong>contactaurix.co@proton.me</strong><br />
+3. Get instant access
+</p>
 
-  <p><strong>⚠️ Only available for customers</strong></p>
-</div>
+<p><strong>⚠️ Only available for customers</strong></p>
             {/* Product 2 */}
             <div className="product-card">
               <div className="product-badge">Personal Finance · Productivity</div>
