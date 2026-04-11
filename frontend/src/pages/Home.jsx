@@ -79,7 +79,8 @@ You will receive it <strong>FREE</strong> only when you purchase any product abo
 </p>
 
 <p><strong>⚠️ Only available for customers</strong></p>
-            {/* Product 2 */}
+         </div>   
+             {/* Product 2 */}
             <div className="product-card">
               <div className="product-badge">Personal Finance · Productivity</div>
               <h3 className="product-title">Smart Personal Budget Planner</h3>
