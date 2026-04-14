@@ -64,7 +64,15 @@ export default function Home() {
                 <li>Beginner-friendly structure</li>
                 <li>Action-based implementation guide</li>
               </ul>
-             <h3>🎁 FREE BONUS</h3>
+          <div style={{
+  marginTop: "30px",
+  padding: "20px",
+  border: "1px solid rgba(245,199,107,0.3)",
+  borderRadius: "12px",
+  background: "rgba(0,0,0,0.4)"
+}}>
+
+<h3 style={{ color: "#f5c76b" }}>🎁 FREE BONUS</h3>
 
 <p><strong>This guide is NOT sold separately.</strong></p>
 
@@ -74,12 +82,13 @@ You will receive it <strong>FREE</strong> only when you purchase any product abo
 
 <p>
 1. Purchase any product above<br />
-2. Send your receipt to: <strong>contactaurix.co@proton.me</strong><br />
+2. Send your receipt to: <strong style={{ color: "#f5c76b" }}>contactaurix.co@proton.me</strong><br />
 3. Get instant access
 </p>
 
 <p><strong>⚠️ Only available for customers</strong></p>
-         </div>   
+
+</div>
              {/* Product 2 */}
             <div className="product-card">
               <div className="product-badge">Personal Finance · Productivity</div>
