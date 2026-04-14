@@ -38,7 +38,8 @@ export default function Home() {
           <div className="scroll-indicator">
             <ChevronDown size={32} />
           </div>
-        )}
+        </div>
+    )}
       </section>
 
       {/* Store Interior Section */}
