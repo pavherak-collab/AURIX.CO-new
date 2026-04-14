@@ -37,7 +37,6 @@ export default function Home() {
         {!hasEntered && (
           <div className="scroll-indicator">
             <ChevronDown size={32} />
-          </div>
         </div>
     )}
       </section>
