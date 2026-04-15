@@ -87,7 +87,7 @@ You will receive it <strong>FREE</strong> only when you purchase any product abo
 </p>
 
 <p><strong>⚠️ Only available for customers</strong></p>
-
+</div>
 </div>
              {/* Product 2 */}
             <div className="product-card">
