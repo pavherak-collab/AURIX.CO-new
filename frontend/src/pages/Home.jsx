@@ -202,7 +202,11 @@ You will receive it <strong>FREE</strong> only when you purchase any product abo
           <div className="footer-links">
             <a href="#privacy">Privacy Policy</a>
             <a href="#terms">Terms of Service</a>
-            <a href="#contact">Contact</a>
+            <a href="mailto:contactaurix.co@proton.me">
+  Contact: <span style={{ color: "#f5c76b" }}>
+    contactaurix.co@proton.me
+  </span>
+</a>
           </div>
           <p className="footer-copyright">
             © 2026 AURIX.CO. All rights reserved.
