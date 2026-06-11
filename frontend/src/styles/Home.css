@@ -162,7 +162,7 @@ body {
 .store-section {
   min-height: 100vh;
   background: var(--bg-primary);
-  background-image: url('../assets/Lucid_Origin_Bright_luxury_digital_gallery_interior_elegant_da_0');
+background: url('../assets/Lucid_Origin_Ultrarealistic_luxury_storefront_named_aurixco_at_3.jpg') center/cover no-repeat;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
