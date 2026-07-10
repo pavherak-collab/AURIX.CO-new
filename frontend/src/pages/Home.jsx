@@ -110,7 +110,17 @@ export default function Home() {
   >
     Limited Launch Offer
   </p>
-
+<p
+  style={{
+    color: "#ccc",
+    fontSize: "1rem",
+    marginBottom: "20px",
+    lineHeight: "1.6",
+    fontWeight: "400"
+  }}
+>
+  Your first step toward building your future.
+</p>
   <button
     className="primary-button"
     onClick={() =>
