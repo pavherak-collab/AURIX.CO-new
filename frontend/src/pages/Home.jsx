@@ -233,7 +233,8 @@ export default function Home() {
 
   </button>
 
-</div>          
+</div>   
+    </div>          
              {/* Product 2 */}
             <div className="product-card">
               <div className="product-badge">Personal Finance · Productivity</div>
