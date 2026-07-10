@@ -127,6 +127,7 @@ export default function Home() {
     Get The Digital Foundation
   </button>
 </div>
+  </div>            
              {/* Product 2 */}
             <div className="product-card">
               <div className="product-badge">Personal Finance · Productivity</div>
