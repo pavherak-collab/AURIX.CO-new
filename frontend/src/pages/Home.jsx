@@ -65,7 +65,6 @@ export default function Home() {
                 <li>Action-based implementation guide</li>
               </ul>
          
-            <div
  <div
 
   style={{
