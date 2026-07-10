@@ -66,68 +66,175 @@ export default function Home() {
               </ul>
          
             <div
+ <div
+
   style={{
+
     marginTop: "30px",
-    padding: "25px",
-    border: "1px solid rgba(245,199,107,0.3)",
-    borderRadius: "12px",
-    background: "rgba(0,0,0,0.4)",
+
+    padding: "30px",
+
+    border: "1px solid rgba(245,199,107,0.35)",
+
+    borderRadius: "14px",
+
+    background: "rgba(0,0,0,0.45)",
+
     textAlign: "center"
+
   }}
+
 >
+
   <p
+
     style={{
+
       textDecoration: "line-through",
-      color: "#888",
-      fontSize: "1.2rem",
-      marginBottom: "8px"
+
+      color: "#8a8a8a",
+
+      fontSize: "2rem",
+
+      fontWeight: "600",
+
+      marginBottom: "10px"
+
     }}
+
   >
+
     €19.99
+
   </p>
 
   <h2
+
     style={{
-      color: "#f5c76b",
-      fontSize: "2.6rem",
-      marginBottom: "10px"
+
+      color: "#ffffff",
+
+      fontSize: "4rem",
+
+      fontWeight: "800",
+
+      lineHeight: "1",
+
+      margin: "0 0 18px 0"
+
     }}
+
   >
+
     FREE
+
   </h2>
 
   <p
+
     style={{
-      color: "#ccc",
-      marginBottom: "24px"
+
+      color: "#f5c76b",
+
+      fontSize: "1.1rem",
+
+      fontWeight: "600",
+
+      marginBottom: "20px"
+
     }}
+
   >
+
     Limited Launch Offer
+
   </p>
-<p
-  style={{
-    color: "#ccc",
-    fontSize: "1rem",
-    marginBottom: "20px",
-    lineHeight: "1.6",
-    fontWeight: "400"
-  }}
->
-  Your first step toward building your future.
-</p>
-  <button
-    className="primary-button"
-    onClick={() =>
-      window.open(
-        "https://thedigitalfoundationaurixco.netlify.app/",
-        "_blank"
-      )
-    }
+
+  <p
+
+    style={{
+
+      color: "#b8b8b8",
+
+      fontSize: "1rem",
+
+      lineHeight: "1.7",
+
+      marginBottom: "30px"
+
+    }}
+
   >
-    Get The Digital Foundation
+
+    Your first step toward building your future.
+
+  </p>
+
+  <button
+
+    onClick={() =>
+
+      window.open(
+
+        "https://thedigitalfoundationaurixco.netlify.app/",
+
+        "_blank"
+
+      )
+
+    }
+
+    style={{
+
+      width: "100%",
+
+      padding: "18px",
+
+      background: "#2d2d2d",
+
+      color: "#ffffff",
+
+      border: "1px solid rgba(245,199,107,0.25)",
+
+      borderRadius: "8px",
+
+      fontSize: "1rem",
+
+      fontWeight: "700",
+
+      letterSpacing: "1px",
+
+      textTransform: "uppercase",
+
+      cursor: "pointer",
+
+      transition: "all 0.3s ease"
+
+    }}
+
+    onMouseEnter={(e) => {
+
+      e.currentTarget.style.background = "#3a3a3a";
+
+      e.currentTarget.style.borderColor = "#f5c76b";
+
+    }}
+
+    onMouseLeave={(e) => {
+
+      e.currentTarget.style.background = "#2d2d2d";
+
+      e.currentTarget.style.borderColor = "rgba(245,199,107,0.25)";
+
+    }}
+
+  >
+
+    GET THE DIGITAL FOUNDATION →
+
   </button>
-</div>
-  </div>            
+
+</div>          
              {/* Product 2 */}
             <div className="product-card">
               <div className="product-badge">Personal Finance · Productivity</div>
