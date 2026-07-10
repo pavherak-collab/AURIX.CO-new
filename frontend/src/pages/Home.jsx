@@ -71,23 +71,57 @@ export default function Home() {
   borderRadius: "12px",
   background: "rgba(0,0,0,0.4)"
 }}>
+            <div
+  style={{
+    marginTop: "30px",
+    padding: "25px",
+    border: "1px solid rgba(245,199,107,0.3)",
+    borderRadius: "12px",
+    background: "rgba(0,0,0,0.4)",
+    textAlign: "center"
+  }}
+>
+  <p
+    style={{
+      textDecoration: "line-through",
+      color: "#888",
+      fontSize: "1.2rem",
+      marginBottom: "8px"
+    }}
+  >
+    €19.99
+  </p>
 
-<h3 style={{ color: "#f5c76b" }}>🎁 FREE BONUS</h3>
+  <h2
+    style={{
+      color: "#f5c76b",
+      fontSize: "2.6rem",
+      marginBottom: "10px"
+    }}
+  >
+    FREE
+  </h2>
 
-<p><strong>This guide is NOT sold separately.</strong></p>
+  <p
+    style={{
+      color: "#ccc",
+      marginBottom: "24px"
+    }}
+  >
+    Limited Launch Offer
+  </p>
 
-<p>
-You will receive it <strong>FREE</strong> only when you purchase any product above.
-</p>
-
-<p>
-1. Purchase any product above<br />
-2. Send your receipt to: <strong style={{ color: "#f5c76b" }}>contactaurix.co@proton.me</strong><br />
-3. Get instant access
-</p>
-
-<p><strong>⚠️ Only available for customers</strong></p>
-</div>
+  <button
+    className="primary-button"
+    onClick={() =>
+      window.open(
+        "https://thedigitalfoundationaurixco.netlify.app/",
+        "_blank"
+      )
+    }
+  >
+    Get The Digital Foundation
+  </button>
 </div>
              {/* Product 2 */}
             <div className="product-card">
