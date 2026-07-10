@@ -64,13 +64,7 @@ export default function Home() {
                 <li>Beginner-friendly structure</li>
                 <li>Action-based implementation guide</li>
               </ul>
-          <div style={{
-  marginTop: "30px",
-  padding: "20px",
-  border: "1px solid rgba(245,199,107,0.3)",
-  borderRadius: "12px",
-  background: "rgba(0,0,0,0.4)"
-}}>
+         
             <div
   style={{
     marginTop: "30px",
